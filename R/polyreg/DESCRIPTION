@@ -1,0 +1,15 @@
+Package: polyreg
+Title: Polynomial Regression using Sparklyr
+Version: 0.0.0.9000
+Authors@R: person("Brad", "Barker", email = "barker@cloudera.com", role = c("aut", "cre"))
+Description: Methods to generate data and train polynomial regression models.
+Depends: R (>= 3.3.3)
+License: GLP-2
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr, sparklyr
+RoxygenNote: 6.0.1
+Suggests: testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

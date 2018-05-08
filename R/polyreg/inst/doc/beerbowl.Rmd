@@ -1,0 +1,27 @@
+---
+title: "The Impact of Beer Consumption on Bowling Scores"
+author: "Brad Barker"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+fig_width: 12 
+fig_height: 8 
+---
+
+Let's reexamine the age old topic of [beer and bowling](http://bowlmovementswy.blogspot.com/2009/06/on-beer-and-bowling.html).
+A commonly held belief is that beer offers only a minimal, then diminishing 
+ impact to a players score as drinking continues. A supporting observation of this 
+ would be a plot indicating an increase then decrease in bowling average.
+ To achieve this, we'll use the polyreg package and it's included data source, beerbowl.
+
+In our case; 
+
+ * *y* is the average game handicapped score by bowler
+ * *x* is the average number of beers consumed during event over 30 frames
+
+```{r,, fig.height = 5, fig.width = 6, fig.align = "center"}
+library(polyreg)
+plot_r(beerbowl)
+```

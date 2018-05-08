@@ -1,0 +1,34 @@
+# common
+.local
+.pip
+.cache
+node_modules
+.config
+.bash_history
+.vim*
+.wget-hsts
+.ssh
+logs
+
+
+# R
+R
+.R
+R/*.tar.gz
+R/pkg/man/
+.Rhistory
+.Rprofile
+
+# python
+.ipython
+
+# RStudio
+.Rproj.user
+
+# intellij / pycharm
+.idea
+
+
+# mac
+.DS_Store
+
